@@ -1,0 +1,33 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1，user-scalable=0;">
+<title>西门子-排行榜</title>
+<link rel="stylesheet" href="__PUBLIC__/Home/css/style.css">
+<include file="common_head" />
+</head>
+
+<body>
+<div class="index index4-bg">
+<div class="body-main">
+ <div class="pai-title"><span class="ph1">头像</span><span class="ph2">昵称</span><span class="ph3">砍价金额</span></div>
+ <ul class="pai-main">
+  <volist name="list" id="vo">
+    <li>
+      <div class="bor">
+        <div class="tx1 ph1"><img src="{$vo.headimgurl}"></div>
+        <div class="tx2 ph2"><span class="pai-font1">No.{$i}</span><span class="pai-font2">{$vo.nickname}</span></div>
+        <div class="tx3 ph3"><span>砍掉<em>{$vo.k_price}</em>元</span></div>
+      </div>
+   </li>
+  </volist>
+ </ul>
+</div>
+
+</div>
+
+
+</body>
+</html>

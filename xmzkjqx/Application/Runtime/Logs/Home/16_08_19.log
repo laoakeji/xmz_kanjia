@@ -1,0 +1,1429 @@
+[ 2016-08-19T10:11:43+08:00 ] 117.185.27.114 /?from=timeline&isappinstalled=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.022671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022773s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T10:11:43+08:00 ] 123.151.152.151 /?from=timeline&isappinstalled=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T10:11:43+08:00 ] 111.30.137.186 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T10:11:44+08:00 ] 111.161.52.27 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T10:11:47+08:00 ] 123.151.152.151 /?from=timeline&code=001RnKJh00U86C1NIfJh0fMIJh0RnKJV&state=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+NOTIC: [8] Undefined index: errcode /alidata/www/xmzkjqx/Application/Common/Common/function.php 第 93 行.
+SQL: SHOW COLUMNS FROM `pg_wx_user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `pg_wx_user` WHERE ( openid='o4hL8whNjI2S_ZhMv7-5QW18K7dA' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `pg_wx_user` (`openid`,`nickname`,`headimgurl`,`sex`,`city`,`province`,`country`,`c_time`) VALUES ('o4hL8whNjI2S_ZhMv7-5QW18K7dA','John','http://wx.qlogo.cn/mmopen/xzvVYaqtSnyiaVMOh98gCUfL0zFnWiaiceib8UibiaCfhM12GLVicd9Dv2R9q4z1ibgJCeSkPGf0Pa8bkV7uG7tyQiaLojg/0','1','长治','山西','中国','1471572707') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pg_user` [ RunTime:0.0008s ]
+SQL: INSERT INTO `pg_user` (`name`,`uid`,`headimgurl`) VALUES ('John','15424','http://wx.qlogo.cn/mmopen/xzvVYaqtSnyiaVMOh98gCUfL0zFnWiaiceib8UibiaCfhM12GLVicd9Dv2R9q4z1ibgJCeSkPGf0Pa8bkV7uG7tyQiaLojg/0') [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047275s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047371s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003357s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003398s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002015s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002061s ]
+
+[ 2016-08-19T10:11:51+08:00 ] 123.151.152.151 /index.php/Home/Index/hd_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013680s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013742s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000154s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000424s ]
+
+[ 2016-08-19T10:12:08+08:00 ] 123.151.152.151 /index.php/Home/Index/hd_ny.html?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `pg_kanjia_record` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `pg_kanjia_record` WHERE ( uid=15424 and kid=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pg_kanjia` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pg_kanjia` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `pg_goods` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `pg_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024030s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024090s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000143s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000445s ]
+
+[ 2016-08-19T10:12:26+08:00 ] 123.151.152.151 /?from=timeline&code=001IXYzn0wg4Ae1YJCzn0G63An0IXYzG&state=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004995s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005047s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000475s ]
+
+[ 2016-08-19T10:14:48+08:00 ] 101.226.69.246 /?from=timeline&isappinstalled=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T10:14:48+08:00 ] 101.226.69.246 /?from=timeline&isappinstalled=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T10:14:51+08:00 ] 112.65.193.13 /index.php/Home/Index/hd_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T10:14:53+08:00 ] 101.226.66.179 /?from=timeline
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T10:15:16+08:00 ] 101.226.66.181 /index.php/Home/Index/hd_ny.html?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T10:48:48+08:00 ] 123.151.42.46 /index.php/Home/Index/help_qixing.html?rid=30&from=timeline&isappinstalled=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T10:48:48+08:00 ] 111.161.105.15 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T10:48:48+08:00 ] 111.30.132.212 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T10:48:56+08:00 ] 123.151.42.46 /index.php/Home/Index/help_qixing.html?rid=30&code=041N8SMl03lZNf1eQfQl0tURMl0N8SMQ&state=30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+NOTIC: [8] Undefined index: errcode /alidata/www/xmzkjqx/Application/Common/Common/function.php 第 93 行.
+SQL: SHOW COLUMNS FROM `pg_wx_user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `pg_wx_user` WHERE ( openid='o4hL8wqwv1d9XdSYJ_VsVxdIissU' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `pg_wx_user` (`openid`,`nickname`,`headimgurl`,`sex`,`city`,`province`,`country`,`c_time`) VALUES ('o4hL8wqwv1d9XdSYJ_VsVxdIissU','林内15835988869','http://wx.qlogo.cn/mmopen/ajNVdqHZLLBQz5NpxSDlSDNlcP5D4pbwSfrjv0y8ib6IqT9800NOPWPZ8y16hRBEJjsJFtxPDkW5jsRz5ZnZODlro9VAbnIJkvtSrCem43bU/0','2','','','中国','1471574936') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pg_user` [ RunTime:0.0007s ]
+SQL: INSERT INTO `pg_user` (`name`,`uid`,`headimgurl`) VALUES ('林内15835988869','15425','http://wx.qlogo.cn/mmopen/ajNVdqHZLLBQz5NpxSDlSDNlcP5D4pbwSfrjv0y8ib6IqT9800NOPWPZ8y16hRBEJjsJFtxPDkW5jsRz5ZnZODlro9VAbnIJkvtSrCem43bU/0') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `pg_dk_record` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pg_dk_record` WHERE ( status=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `pg_dk_record` WHERE ( id=30 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `pg_dk_help_record` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pg_dk_help_record` WHERE ( uid=15425 and rid = 30 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `pg_wx_user` WHERE ( uid=13182 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pg_dk_help_record` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pg_dk_record` WHERE ( status=2 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029765s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029850s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000154s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000473s ]
+
+[ 2016-08-19T10:49:17+08:00 ] 123.151.42.46 /index.php/Home/Index/help_qixing.html?rid=30&code=031gFZo40554Lx138ir40E00p40gFZoo&state=30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `pg_dk_record` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pg_dk_record` WHERE ( status=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `pg_dk_record` WHERE ( id=30 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `pg_dk_help_record` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `pg_dk_help_record` WHERE ( uid=15425 and rid = 30 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pg_wx_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pg_wx_user` WHERE ( uid=13182 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pg_dk_help_record` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pg_dk_record` WHERE ( status=2 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009255s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009349s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000642s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000711s ]
+
+[ 2016-08-19T10:51:54+08:00 ] 101.226.33.228 /index.php/Home/Index/help_qixing.html?rid=30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T10:51:55+08:00 ] 101.226.33.217 /index.php/Home/Index/help_qixing.html?rid=30&from=timeline&isappinstalled=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T10:53:34+08:00 ] 123.151.42.50 /index.php/Home/Index/help_kan.html?uid=14789&krid=203163&from=timeline&isappinstalled=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T10:53:36+08:00 ] 123.151.42.50 /index.php/Home/Index/help_kan.html?uid=14789&code=011gecjg22xA7O0KvYlg2s59jg2gecjQ&state=203163
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+NOTIC: [8] Undefined index: errcode /alidata/www/xmzkjqx/Application/Common/Common/function.php 第 93 行.
+SQL: SHOW COLUMNS FROM `pg_wx_user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `pg_wx_user` WHERE ( openid='o4hL8wjT0pSEGsjnh-qj3r11LwYY' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `pg_wx_user` (`openid`,`nickname`,`headimgurl`,`sex`,`city`,`province`,`country`,`c_time`) VALUES ('o4hL8wjT0pSEGsjnh-qj3r11LwYY','周莉Zoey','http://wx.qlogo.cn/mmopen/PiajxSqBRaEJN3jByMF6kMSOcsuXJIj8I37nWBvWDqF1CzuErGOW2YHPPD4THOESO95Q3OP90XuBN3HiaOiaDeJfA/0','2','太原','山西','中国','1471575216') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pg_user` [ RunTime:0.0007s ]
+SQL: INSERT INTO `pg_user` (`name`,`uid`,`headimgurl`) VALUES ('周莉Zoey','15426','http://wx.qlogo.cn/mmopen/PiajxSqBRaEJN3jByMF6kMSOcsuXJIj8I37nWBvWDqF1CzuErGOW2YHPPD4THOESO95Q3OP90XuBN3HiaOiaDeJfA/0') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `pg_kanjia_record` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pg_kanjia_record` WHERE ( id=203163 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `pg_kanjia` [ RunTime:0.0007s ]
+SQL: SELECT pg_goods.*,pg_kanjia.status,pg_kanjia.max_peo,pg_kanjia.cost_price,pg_kanjia.max_peo,pg_kanjia.rand_a,pg_kanjia.rand_b,pg_kanjia.low_price FROM `pg_kanjia` INNER JOIN pg_goods on pg_goods.id=pg_kanjia.pid  WHERE ( pg_kanjia.id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pg_kanjia_help_record` [ RunTime:0.0008s ]
+SQL: SELECT pg_wx_user.nickname,pg_wx_user.headimgurl,pg_kanjia_help_record.* FROM `pg_kanjia_help_record` INNER JOIN pg_wx_user on pg_kanjia_help_record.uid=pg_wx_user.uid  WHERE ( krid=203163 ) ORDER BY pg_kanjia_help_record.c_time desc LIMIT 100   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pg_kanjia_record` WHERE ( id=203163 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `pg_wx_user` WHERE ( uid='14789' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `pg_kanjia_help_record` WHERE ( uid=15426 and krid=203163 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `pg_goods` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pg_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+NOTIC: [8] Undefined variable: uid /alidata/www/xmzkjqx/Application/Runtime/Cache/Home/a47441ba7ce706c311534c16fbad12ec.php 第 24 行.
+NOTIC: [8] Undefined variable: uid /alidata/www/xmzkjqx/Application/Runtime/Cache/Home/a47441ba7ce706c311534c16fbad12ec.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025260s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025309s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000133s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000468s ]
+
+[ 2016-08-19T10:53:41+08:00 ] 123.151.42.50 /index.php/Home/Index/help_kanhou.html?krid=203163
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `pg_kanjia_record` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pg_kanjia_record` WHERE ( id=203163 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `pg_kanjia` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pg_kanjia` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `pg_kanjia_help_record` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pg_kanjia_help_record` WHERE ( krid=203163 and uid=15426 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `pg_kanjia_record` SET `k_price`='896.29' WHERE ( id=203163 ) [ RunTime:0.0002s ]
+SQL: INSERT INTO `pg_kanjia_help_record` (`uid`,`krid`,`c_time`,`k_price`) VALUES ('15426','203163','1471575221','66.23') [ RunTime:0.0002s ]
+SQL: UPDATE `pg_kanjia_record` SET `k_peo`=k_peo+1 WHERE ( id=203163 ) [ RunTime:0.0002s ]
+SQL: SELECT * FROM `pg_kanjia_record` WHERE ( id=203163 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `pg_kanjia_record` WHERE ( id=203163 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pg_kanjia` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `pg_kanjia_help_record` WHERE ( krid=203163 and uid=15426 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pg_goods` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pg_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+NOTIC: [8] Undefined variable: uid /alidata/www/xmzkjqx/Application/Runtime/Cache/Home/fa24216c55600686df7e2e31bf8c1c40.php 第 23 行.
+NOTIC: [8] Undefined variable: uid /alidata/www/xmzkjqx/Application/Runtime/Cache/Home/fa24216c55600686df7e2e31bf8c1c40.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007762s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007804s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000129s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000418s ]
+
+[ 2016-08-19T10:56:33+08:00 ] 101.226.68.213 /index.php/Home/Index/help_kan.html?uid=14789
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T10:56:40+08:00 ] 61.151.226.16 /index.php/Home/Index/help_kan.html?uid=14789&krid=203163&from=timeline&isappinstalled=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000454s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T10:56:46+08:00 ] 101.226.125.16 /index.php/Home/Index/help_kanhou.html?krid=203163
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T11:06:37+08:00 ] 111.161.57.49 /index.php/Home/Index/help_kan.html?uid=13191&krid=202901&from=timeline&isappinstalled=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T11:06:37+08:00 ] 111.30.131.238 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T11:06:38+08:00 ] 111.161.52.28 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T11:09:36+08:00 ] 180.153.214.197 /index.php/Home/Index/help_kan.html?uid=13191&krid=202901&from=timeline&isappinstalled=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T11:09:46+08:00 ] 101.226.33.202 /index.php/Home/Index/help_kan.html?uid=13191
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T11:48:41+08:00 ] 183.185.168.218 /index.php/Home/Index/help_kan.html?uid=14707&krid=203156&from=timeline&isappinstalled=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T11:51:50+08:00 ] 101.226.33.237 /index.php/Home/Index/help_kan.html?uid=14707&krid=203156&from=timeline&isappinstalled=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T11:51:50+08:00 ] 101.226.66.172 /index.php/Home/Index/help_kan.html?uid=14707
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T14:04:32+08:00 ] 111.161.105.15 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T14:04:32+08:00 ] 111.161.57.49 /index.php/Home/Index/help_kan.html?uid=&krid=203105&from=timeline&isappinstalled=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T14:04:32+08:00 ] 111.30.137.184 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T14:04:32+08:00 ] 111.161.57.49 /index.php/Home/Index/help_kan.html?uid=&krid=203105&from=timeline&isappinstalled=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T14:04:37+08:00 ] 111.161.57.49 /index.php/Home/Index/help_kan.html?uid=&code=001XmZoq1uIzZt0ckApq1t5Yoq1XmZod&state=203105
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+NOTIC: [8] Undefined index: errcode /alidata/www/xmzkjqx/Application/Common/Common/function.php 第 93 行.
+SQL: SHOW COLUMNS FROM `pg_wx_user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `pg_wx_user` WHERE ( openid='o4hL8wnzOv24N-3c_qtcmncxZrsk' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `pg_wx_user` (`openid`,`nickname`,`headimgurl`,`sex`,`city`,`province`,`country`,`c_time`) VALUES ('o4hL8wnzOv24N-3c_qtcmncxZrsk','猪猪宝贝','http://wx.qlogo.cn/mmopen/ajNVdqHZLLCLQEdk3zXFYHJSFN92hIBXcqnad8lamEdaGGOWGjTMRmeR9WMpgyq8JRib68dFGJuTTCfZmhgn2Nw/0','2','太原','山西','中国','1471586677') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pg_user` [ RunTime:0.0008s ]
+SQL: INSERT INTO `pg_user` (`name`,`uid`,`headimgurl`) VALUES ('猪猪宝贝','15427','http://wx.qlogo.cn/mmopen/ajNVdqHZLLCLQEdk3zXFYHJSFN92hIBXcqnad8lamEdaGGOWGjTMRmeR9WMpgyq8JRib68dFGJuTTCfZmhgn2Nw/0') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `pg_kanjia_record` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `pg_kanjia_record` WHERE ( id=203105 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pg_kanjia` [ RunTime:0.0008s ]
+SQL: SELECT pg_goods.*,pg_kanjia.status,pg_kanjia.max_peo,pg_kanjia.cost_price,pg_kanjia.max_peo,pg_kanjia.rand_a,pg_kanjia.rand_b,pg_kanjia.low_price FROM `pg_kanjia` INNER JOIN pg_goods on pg_goods.id=pg_kanjia.pid  WHERE ( pg_kanjia.id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pg_kanjia_help_record` [ RunTime:0.0008s ]
+SQL: SELECT pg_wx_user.nickname,pg_wx_user.headimgurl,pg_kanjia_help_record.* FROM `pg_kanjia_help_record` INNER JOIN pg_wx_user on pg_kanjia_help_record.uid=pg_wx_user.uid  WHERE ( krid=203105 ) ORDER BY pg_kanjia_help_record.c_time desc LIMIT 100   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `pg_kanjia_record` WHERE ( id=203105 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `pg_wx_user` WHERE ( uid='13242' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `pg_kanjia_help_record` WHERE ( uid=15427 and krid=203105 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `pg_goods` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pg_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+NOTIC: [8] Undefined variable: uid /alidata/www/xmzkjqx/Application/Runtime/Cache/Home/a47441ba7ce706c311534c16fbad12ec.php 第 24 行.
+NOTIC: [8] Undefined variable: uid /alidata/www/xmzkjqx/Application/Runtime/Cache/Home/a47441ba7ce706c311534c16fbad12ec.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006638s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000138s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000423s ]
+
+[ 2016-08-19T14:07:32+08:00 ] 180.153.206.17 /index.php/Home/Index/help_kan.html?uid=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T16:35:45+08:00 ] 101.247.186.105 /index.php/Home/Index/help_kan.html?uid=13180&krid=202762&from=timeline&isappinstalled=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T16:35:49+08:00 ] 101.247.186.105 /index.php/Home/Index/help_kan.html?uid=13180&code=001nbcXH1kMxnc0FqGYH1kmdXH1nbcXu&state=202762
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+NOTIC: [8] Undefined index: errcode /alidata/www/xmzkjqx/Application/Common/Common/function.php 第 93 行.
+SQL: SHOW COLUMNS FROM `pg_wx_user` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `pg_wx_user` WHERE ( openid='o4hL8wtzSKwLLDLe9nWR_FTlNiV0' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `pg_wx_user` SET `headimgurl`='http://wx.qlogo.cn/mmopen/9AYUiameFWmflX0iaM20BPXvZBeImDeQte4LzmbBqgMPyd8r5Oe9tVkoSz3Y36OZjicfolp0asT2UcSGSwIk4I9rvCcCaJHGKWX/0' WHERE ( openid='o4hL8wtzSKwLLDLe9nWR_FTlNiV0' ) [ RunTime:0.0069s ]
+SQL: SHOW COLUMNS FROM `pg_user` [ RunTime:0.0013s ]
+SQL: SELECT `id` FROM `pg_user` WHERE ( uid=13220 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `pg_kanjia_record` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `pg_kanjia_record` WHERE ( id=202762 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pg_kanjia` [ RunTime:0.0008s ]
+SQL: SELECT pg_goods.*,pg_kanjia.status,pg_kanjia.max_peo,pg_kanjia.cost_price,pg_kanjia.max_peo,pg_kanjia.rand_a,pg_kanjia.rand_b,pg_kanjia.low_price FROM `pg_kanjia` INNER JOIN pg_goods on pg_goods.id=pg_kanjia.pid  WHERE ( pg_kanjia.id='4' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pg_kanjia_help_record` [ RunTime:0.0007s ]
+SQL: SELECT pg_wx_user.nickname,pg_wx_user.headimgurl,pg_kanjia_help_record.* FROM `pg_kanjia_help_record` INNER JOIN pg_wx_user on pg_kanjia_help_record.uid=pg_wx_user.uid  WHERE ( krid=202762 ) ORDER BY pg_kanjia_help_record.c_time desc LIMIT 100   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pg_kanjia_record` WHERE ( id=202762 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `pg_wx_user` WHERE ( uid='13180' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `pg_kanjia_help_record` WHERE ( uid=13220 and krid=202762 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pg_goods` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pg_goods` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+NOTIC: [8] Undefined variable: uid /alidata/www/xmzkjqx/Application/Runtime/Cache/Home/a47441ba7ce706c311534c16fbad12ec.php 第 24 行.
+NOTIC: [8] Undefined variable: uid /alidata/www/xmzkjqx/Application/Runtime/Cache/Home/a47441ba7ce706c311534c16fbad12ec.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006554s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000409s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000454s ]
+
+[ 2016-08-19T16:35:56+08:00 ] 101.247.186.105 /index.php/Home/Index/help_kan.html?uid=13180&code=001nbcXH1kMxnc0FqGYH1kmdXH1nbcXu&state=202762
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `pg_kanjia_record` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `pg_kanjia_record` WHERE ( id=202762 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pg_kanjia` [ RunTime:0.0006s ]
+SQL: SELECT pg_goods.*,pg_kanjia.status,pg_kanjia.max_peo,pg_kanjia.cost_price,pg_kanjia.max_peo,pg_kanjia.rand_a,pg_kanjia.rand_b,pg_kanjia.low_price FROM `pg_kanjia` INNER JOIN pg_goods on pg_goods.id=pg_kanjia.pid  WHERE ( pg_kanjia.id='4' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pg_kanjia_help_record` [ RunTime:0.0006s ]
+SQL: SELECT pg_wx_user.nickname,pg_wx_user.headimgurl,pg_kanjia_help_record.* FROM `pg_kanjia_help_record` INNER JOIN pg_wx_user on pg_kanjia_help_record.uid=pg_wx_user.uid  WHERE ( krid=202762 ) ORDER BY pg_kanjia_help_record.c_time desc LIMIT 100   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pg_kanjia_record` WHERE ( id=202762 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `pg_wx_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pg_wx_user` WHERE ( uid='13180' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `pg_kanjia_help_record` WHERE ( uid=13220 and krid=202762 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pg_goods` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pg_goods` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+NOTIC: [8] Undefined variable: uid /alidata/www/xmzkjqx/Application/Runtime/Cache/Home/a47441ba7ce706c311534c16fbad12ec.php 第 24 行.
+NOTIC: [8] Undefined variable: uid /alidata/www/xmzkjqx/Application/Runtime/Cache/Home/a47441ba7ce706c311534c16fbad12ec.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006372s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006416s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000428s ]
+
+[ 2016-08-19T16:38:53+08:00 ] 101.226.66.180 /index.php/Home/Index/help_kan.html?uid=13180&krid=202762&from=timeline&isappinstalled=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T16:38:53+08:00 ] 101.226.33.202 /index.php/Home/Index/help_kan.html?uid=13180
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T19:15:24+08:00 ] 223.11.105.155 /index.php/Home/Index/help_kan.html?uid=14476&krid=203107&from=timeline&isappinstalled=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T19:15:28+08:00 ] 223.11.105.155 /index.php/Home/Index/help_kan.html?uid=14476&code=021FlN170CzWyu19Lu570AeJ170FlN1q&state=203107
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+NOTIC: [8] Undefined index: errcode /alidata/www/xmzkjqx/Application/Common/Common/function.php 第 93 行.
+SQL: SHOW COLUMNS FROM `pg_wx_user` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `pg_wx_user` WHERE ( openid='o4hL8wonfuhaxPyPM4D4aC4cCnPA' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pg_user` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `pg_user` WHERE ( uid=14476 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pg_kanjia_record` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `pg_kanjia_record` WHERE ( id=203107 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-08-19T19:15:30+08:00 ] 223.11.105.155 /index.php/Home/Index/hd_ny_result.html?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `pg_kanjia` [ RunTime:0.0012s ]
+SQL: SELECT pg_goods.*,pg_kanjia.status,pg_kanjia.max_peo,pg_kanjia.cost_price,pg_kanjia.max_peo,pg_kanjia.rand_a,pg_kanjia.rand_b,pg_kanjia.low_price FROM `pg_kanjia` INNER JOIN pg_goods on pg_goods.id=pg_kanjia.pid  WHERE ( pg_kanjia.id=1 ) LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: goods_imgs_wap /alidata/www/xmzkjqx/Application/Home/Controller/IndexController.class.php 第 79 行.
+SQL: SHOW COLUMNS FROM `pg_kanjia_record` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pg_kanjia_record` WHERE ( uid=14476 and kid='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pg_kanjia_help_record` [ RunTime:0.0009s ]
+SQL: SELECT `k_price` FROM `pg_kanjia_help_record` WHERE ( uid=14476 and krid=203107 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT pg_wx_user.nickname,pg_wx_user.headimgurl,pg_kanjia_help_record.* FROM `pg_kanjia_help_record` INNER JOIN pg_wx_user on pg_kanjia_help_record.uid=pg_wx_user.uid  WHERE ( krid=203107 ) ORDER BY pg_kanjia_help_record.c_time desc LIMIT 100   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pg_kanjia_record` WHERE ( id=203107 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `pg_goods` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pg_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+NOTIC: [8] Undefined variable: vo /alidata/www/xmzkjqx/Application/Runtime/Cache/Home/0fae4ef24545520beda50027985ad43a.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026424s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026468s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000131s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000419s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2016-08-19T19:15:36+08:00 ] 223.11.105.155 /index.php/Home/Index/paihangbang.html?krid=203107
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SELECT b.headimgurl,b.nickname,a.k_price FROM pg_kanjia_help_record a,pg_wx_user b WHERE a.uid = b.uid AND a.krid = 203107 order by a.k_price desc [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023315s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023363s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000375s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000421s ]
+
+[ 2016-08-19T19:18:24+08:00 ] 101.226.69.246 /index.php/Home/Index/help_kan.html?uid=14476
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T19:18:32+08:00 ] 101.226.51.227 /index.php/Home/Index/help_kan.html?uid=14476&krid=203107&from=timeline&isappinstalled=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T19:18:35+08:00 ] 180.153.205.254 /index.php/Home/Index/paihangbang.html?krid=203107
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T19:37:12+08:00 ] 14.17.37.145 /index.php/Home/Index/help_kan.html?uid=14895&krid=203170&from=timeline&isappinstalled=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T19:37:15+08:00 ] 14.17.37.145 /index.php/Home/Index/help_kan.html?uid=14895&code=011AShij2N368L0PFjhj2yPkij2AShiB&state=203170
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+NOTIC: [8] Undefined index: errcode /alidata/www/xmzkjqx/Application/Common/Common/function.php 第 93 行.
+SQL: SHOW COLUMNS FROM `pg_wx_user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `pg_wx_user` WHERE ( openid='o4hL8wqXo4stJVgVo0sHJLOg4550' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `pg_wx_user` (`openid`,`nickname`,`headimgurl`,`sex`,`city`,`province`,`country`,`c_time`) VALUES ('o4hL8wqXo4stJVgVo0sHJLOg4550','王者','http://wx.qlogo.cn/mmopen/ajNVdqHZLLCjZvrpKyLeNHUd5so7y0ZIbv0XtSe8jl3WCrWEyibRhT5AG8QIsUDhtq17U54jicH5GuKjCWTdnu0w/0','0','','','中国','1471606635') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pg_user` [ RunTime:0.0007s ]
+SQL: INSERT INTO `pg_user` (`name`,`uid`,`headimgurl`) VALUES ('王者','15428','http://wx.qlogo.cn/mmopen/ajNVdqHZLLCjZvrpKyLeNHUd5so7y0ZIbv0XtSe8jl3WCrWEyibRhT5AG8QIsUDhtq17U54jicH5GuKjCWTdnu0w/0') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `pg_kanjia_record` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pg_kanjia_record` WHERE ( id=203170 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `pg_kanjia` [ RunTime:0.0007s ]
+SQL: SELECT pg_goods.*,pg_kanjia.status,pg_kanjia.max_peo,pg_kanjia.cost_price,pg_kanjia.max_peo,pg_kanjia.rand_a,pg_kanjia.rand_b,pg_kanjia.low_price FROM `pg_kanjia` INNER JOIN pg_goods on pg_goods.id=pg_kanjia.pid  WHERE ( pg_kanjia.id='3' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pg_kanjia_help_record` [ RunTime:0.0007s ]
+SQL: SELECT pg_wx_user.nickname,pg_wx_user.headimgurl,pg_kanjia_help_record.* FROM `pg_kanjia_help_record` INNER JOIN pg_wx_user on pg_kanjia_help_record.uid=pg_wx_user.uid  WHERE ( krid=203170 ) ORDER BY pg_kanjia_help_record.c_time desc LIMIT 100   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pg_kanjia_record` WHERE ( id=203170 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `pg_wx_user` WHERE ( uid='14895' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `pg_kanjia_help_record` WHERE ( uid=15428 and krid=203170 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `pg_goods` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pg_goods` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+NOTIC: [8] Undefined variable: uid /alidata/www/xmzkjqx/Application/Runtime/Cache/Home/a47441ba7ce706c311534c16fbad12ec.php 第 24 行.
+NOTIC: [8] Undefined variable: uid /alidata/www/xmzkjqx/Application/Runtime/Cache/Home/a47441ba7ce706c311534c16fbad12ec.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006039s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006081s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000129s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000435s ]
+
+[ 2016-08-19T19:37:15+08:00 ] 163.177.82.13 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T19:37:15+08:00 ] 112.90.142.207 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T19:37:15+08:00 ] 163.177.93.241 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T19:37:22+08:00 ] 14.17.37.145 /index.php/Home/Index/help_kanhou.html?krid=203170
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `pg_kanjia_record` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pg_kanjia_record` WHERE ( id=203170 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pg_kanjia` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pg_kanjia` WHERE ( id='3' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `pg_kanjia_help_record` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pg_kanjia_help_record` WHERE ( krid=203170 and uid=15428 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `pg_kanjia_record` SET `k_price`='2159.18' WHERE ( id=203170 ) [ RunTime:0.0003s ]
+SQL: INSERT INTO `pg_kanjia_help_record` (`uid`,`krid`,`c_time`,`k_price`) VALUES ('15428','203170','1471606642','3.76') [ RunTime:0.0003s ]
+SQL: UPDATE `pg_kanjia_record` SET `k_peo`=k_peo+1 WHERE ( id=203170 ) [ RunTime:0.0002s ]
+SQL: SELECT * FROM `pg_kanjia_record` WHERE ( id=203170 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `pg_kanjia_record` WHERE ( id=203170 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pg_kanjia` WHERE ( id='3' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `pg_kanjia_help_record` WHERE ( krid=203170 and uid=15428 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pg_goods` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `pg_goods` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+NOTIC: [8] Undefined variable: uid /alidata/www/xmzkjqx/Application/Runtime/Cache/Home/fa24216c55600686df7e2e31bf8c1c40.php 第 23 行.
+NOTIC: [8] Undefined variable: uid /alidata/www/xmzkjqx/Application/Runtime/Cache/Home/fa24216c55600686df7e2e31bf8c1c40.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005253s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005295s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000414s ]
+
+[ 2016-08-19T19:37:24+08:00 ] 120.198.202.48 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T19:40:19+08:00 ] 101.226.125.103 /index.php/Home/Index/help_kan.html?uid=14895
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T19:40:20+08:00 ] 180.153.214.200 /index.php/Home/Index/help_kan.html?uid=14895&krid=203170&from=timeline&isappinstalled=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T19:40:31+08:00 ] 180.153.211.190 /index.php/Home/Index/help_kanhou.html?krid=203170
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T20:37:00+08:00 ] 123.151.152.151 /index.php/Home/Index/help_kan.html?uid=14789&krid=203163&from=timeline&isappinstalled=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T20:37:05+08:00 ] 125.39.57.38 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T20:37:05+08:00 ] 111.30.137.183 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T20:37:05+08:00 ] 123.151.152.151 /index.php/Home/Index/help_kan.html?uid=14789&code=011RWMq51Q4kzZ1S1ot513wIq51RWMqG&state=203163
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+NOTIC: [8] Undefined index: errcode /alidata/www/xmzkjqx/Application/Common/Common/function.php 第 93 行.
+SQL: SHOW COLUMNS FROM `pg_wx_user` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `pg_wx_user` WHERE ( openid='o4hL8wnLefXeDkEQLFLJIG1lNj28' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `pg_wx_user` (`openid`,`nickname`,`headimgurl`,`sex`,`city`,`province`,`country`,`c_time`) VALUES ('o4hL8wnLefXeDkEQLFLJIG1lNj28','许跃杰','http://wx.qlogo.cn/mmopen/EZjsnscmfQNnfWgDnFhhovywicb9XfTm2tomCX5yo4Va89krUcI0WhMoumVP5iakOibBPw78Ht8R8g0cjiboMZEdC3yoIQ7t2SFH/0','1','太原','山西','中国','1471610225') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pg_user` [ RunTime:0.0007s ]
+SQL: INSERT INTO `pg_user` (`name`,`uid`,`headimgurl`) VALUES ('许跃杰','15429','http://wx.qlogo.cn/mmopen/EZjsnscmfQNnfWgDnFhhovywicb9XfTm2tomCX5yo4Va89krUcI0WhMoumVP5iakOibBPw78Ht8R8g0cjiboMZEdC3yoIQ7t2SFH/0') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `pg_kanjia_record` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `pg_kanjia_record` WHERE ( id=203163 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `pg_kanjia` [ RunTime:0.0007s ]
+SQL: SELECT pg_goods.*,pg_kanjia.status,pg_kanjia.max_peo,pg_kanjia.cost_price,pg_kanjia.max_peo,pg_kanjia.rand_a,pg_kanjia.rand_b,pg_kanjia.low_price FROM `pg_kanjia` INNER JOIN pg_goods on pg_goods.id=pg_kanjia.pid  WHERE ( pg_kanjia.id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pg_kanjia_help_record` [ RunTime:0.0006s ]
+SQL: SELECT pg_wx_user.nickname,pg_wx_user.headimgurl,pg_kanjia_help_record.* FROM `pg_kanjia_help_record` INNER JOIN pg_wx_user on pg_kanjia_help_record.uid=pg_wx_user.uid  WHERE ( krid=203163 ) ORDER BY pg_kanjia_help_record.c_time desc LIMIT 100   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pg_kanjia_record` WHERE ( id=203163 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `pg_wx_user` WHERE ( uid='14789' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `pg_kanjia_help_record` WHERE ( uid=15429 and krid=203163 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `pg_goods` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pg_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+NOTIC: [8] Undefined variable: uid /alidata/www/xmzkjqx/Application/Runtime/Cache/Home/a47441ba7ce706c311534c16fbad12ec.php 第 24 行.
+NOTIC: [8] Undefined variable: uid /alidata/www/xmzkjqx/Application/Runtime/Cache/Home/a47441ba7ce706c311534c16fbad12ec.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006421s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000407s ]
+
+[ 2016-08-19T20:37:18+08:00 ] 123.151.152.151 /index.php/Home/Index/help_kanhou.html?krid=203163
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `pg_kanjia_record` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `pg_kanjia_record` WHERE ( id=203163 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `pg_kanjia` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pg_kanjia` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `pg_kanjia_help_record` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pg_kanjia_help_record` WHERE ( krid=203163 and uid=15429 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `pg_kanjia_record` SET `k_price`='905.4' WHERE ( id=203163 ) [ RunTime:0.0002s ]
+SQL: INSERT INTO `pg_kanjia_help_record` (`uid`,`krid`,`c_time`,`k_price`) VALUES ('15429','203163','1471610238','9.11') [ RunTime:0.0002s ]
+SQL: UPDATE `pg_kanjia_record` SET `k_peo`=k_peo+1 WHERE ( id=203163 ) [ RunTime:0.0002s ]
+SQL: SELECT * FROM `pg_kanjia_record` WHERE ( id=203163 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `pg_kanjia_record` WHERE ( id=203163 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `pg_kanjia` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `pg_kanjia_help_record` WHERE ( krid=203163 and uid=15429 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `pg_goods` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pg_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+NOTIC: [8] Undefined variable: uid /alidata/www/xmzkjqx/Application/Runtime/Cache/Home/fa24216c55600686df7e2e31bf8c1c40.php 第 23 行.
+NOTIC: [8] Undefined variable: uid /alidata/www/xmzkjqx/Application/Runtime/Cache/Home/fa24216c55600686df7e2e31bf8c1c40.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005109s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005149s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000410s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000451s ]
+
+[ 2016-08-19T20:37:24+08:00 ] 163.177.69.106 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004694s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004768s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000473s ]
+
+[ 2016-08-19T20:37:29+08:00 ] 123.151.152.151 /index.php/Home/Index/hd_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005367s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005412s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000136s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000488s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000551s ]
+
+[ 2016-08-19T20:37:39+08:00 ] 163.177.69.106 /index.php/Home/Index/hd_ny.html?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `pg_kanjia_record` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pg_kanjia_record` WHERE ( uid=15429 and kid=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pg_kanjia` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pg_kanjia` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `pg_goods` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pg_goods` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004936s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004977s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000385s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000424s ]
+
+[ 2016-08-19T20:37:41+08:00 ] 123.151.152.151 /index.php/Home/Index/hd_ny_result.html?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `pg_kanjia` [ RunTime:0.0011s ]
+SQL: SELECT pg_goods.*,pg_kanjia.status,pg_kanjia.max_peo,pg_kanjia.cost_price,pg_kanjia.max_peo,pg_kanjia.rand_a,pg_kanjia.rand_b,pg_kanjia.low_price FROM `pg_kanjia` INNER JOIN pg_goods on pg_goods.id=pg_kanjia.pid  WHERE ( pg_kanjia.id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: goods_imgs_wap /alidata/www/xmzkjqx/Application/Home/Controller/IndexController.class.php 第 79 行.
+SQL: SHOW COLUMNS FROM `pg_kanjia_record` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pg_kanjia_record` WHERE ( uid=15429 and kid='2' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `pg_kanjia_record` (`uid`,`kid`,`c_time`,`status`,`k_price`) VALUES ('15429','2','1471610261','1','23.02') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pg_kanjia_help_record` [ RunTime:0.0007s ]
+SQL: INSERT INTO `pg_kanjia_help_record` (`uid`,`krid`,`k_price`,`c_time`) VALUES ('15429','203332','23.02','1471610261') [ RunTime:0.0002s ]
+SQL: SELECT * FROM `pg_kanjia_record` WHERE ( uid=15429 and kid='2' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT pg_wx_user.nickname,pg_wx_user.headimgurl,pg_kanjia_help_record.* FROM `pg_kanjia_help_record` INNER JOIN pg_wx_user on pg_kanjia_help_record.uid=pg_wx_user.uid  WHERE ( krid=203332 ) ORDER BY pg_kanjia_help_record.c_time desc LIMIT 100   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `pg_kanjia_record` WHERE ( id=203332 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `pg_goods` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pg_goods` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+NOTIC: [8] Undefined variable: vo /alidata/www/xmzkjqx/Application/Runtime/Cache/Home/0fae4ef24545520beda50027985ad43a.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005757s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005799s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000443s ]
+
+[ 2016-08-19T20:40:07+08:00 ] 180.153.201.15 /index.php/Home/Index/help_kan.html?uid=14789&krid=203163&from=timeline&isappinstalled=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T20:40:08+08:00 ] 180.153.214.188 /index.php/Home/Index/help_kan.html?uid=14789
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T20:40:23+08:00 ] 101.226.125.16 /index.php/Home/Index/help_kanhou.html?krid=203163
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T20:40:32+08:00 ] 101.226.89.119 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T20:40:44+08:00 ] 101.226.66.172 /index.php/Home/Index/hd_ny.html?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T20:40:49+08:00 ] 101.226.61.207 /index.php/Home/Index/hd_ny_result.html?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T20:43:34+08:00 ] 183.94.22.222 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T20:43:45+08:00 ] 119.29.223.74 /index.php/Home/Index/hd_ny.html?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T21:42:25+08:00 ] 110.17.170.33 /index.php/Home/Index/help_kan.html?uid=13204&krid=202773&from=groupmessage&isappinstalled=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T21:42:25+08:00 ] 110.17.170.33 /index.php/Home/Index/help_kan.html?uid=13204&krid=202773&from=groupmessage&isappinstalled=0&visitDstTime=1471614150182
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T21:42:25+08:00 ] 110.17.170.33 /index.php/Home/Index/help_kan.html?uid=13204&krid=202773&from=groupmessage&isappinstalled=0&visitDstTime=1471614150182&noe=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T21:42:28+08:00 ] 110.17.170.33 /index.php/Home/Index/help_kan.html?uid=13204&code=041uHfqR1CfpUU0d66rR18ufqR1uHfqH&state=202773
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+NOTIC: [8] Undefined index: errcode /alidata/www/xmzkjqx/Application/Common/Common/function.php 第 93 行.
+SQL: SHOW COLUMNS FROM `pg_wx_user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `pg_wx_user` WHERE ( openid='o4hL8wlBxIuWRjNdj2R59Fs3KQp8' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pg_user` [ RunTime:0.0011s ]
+SQL: SELECT `id` FROM `pg_user` WHERE ( uid=13246 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pg_kanjia_record` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `pg_kanjia_record` WHERE ( id=202773 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pg_kanjia` [ RunTime:0.0007s ]
+SQL: SELECT pg_goods.*,pg_kanjia.status,pg_kanjia.max_peo,pg_kanjia.cost_price,pg_kanjia.max_peo,pg_kanjia.rand_a,pg_kanjia.rand_b,pg_kanjia.low_price FROM `pg_kanjia` INNER JOIN pg_goods on pg_goods.id=pg_kanjia.pid  WHERE ( pg_kanjia.id='2' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pg_kanjia_help_record` [ RunTime:0.0006s ]
+SQL: SELECT pg_wx_user.nickname,pg_wx_user.headimgurl,pg_kanjia_help_record.* FROM `pg_kanjia_help_record` INNER JOIN pg_wx_user on pg_kanjia_help_record.uid=pg_wx_user.uid  WHERE ( krid=202773 ) ORDER BY pg_kanjia_help_record.c_time desc LIMIT 100   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pg_kanjia_record` WHERE ( id=202773 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `pg_wx_user` WHERE ( uid='13204' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `pg_kanjia_help_record` WHERE ( uid=13246 and krid=202773 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `pg_goods` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pg_goods` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+NOTIC: [8] Undefined variable: uid /alidata/www/xmzkjqx/Application/Runtime/Cache/Home/a47441ba7ce706c311534c16fbad12ec.php 第 24 行.
+NOTIC: [8] Undefined variable: uid /alidata/www/xmzkjqx/Application/Runtime/Cache/Home/a47441ba7ce706c311534c16fbad12ec.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006497s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006543s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000133s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000480s ]
+
+[ 2016-08-19T21:45:24+08:00 ] 140.207.185.107 /index.php/Home/Index/help_kan.html?uid=13204&krid=202773&from=groupmessage&isappinstalled=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T21:45:25+08:00 ] 180.153.214.188 /index.php/Home/Index/help_kan.html?uid=13204
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T21:45:25+08:00 ] 180.153.206.20 /index.php/Home/Index/help_kan.html?uid=13204&krid=202773&from=groupmessage&isappinstalled=0&visitDstTime=1471614150182&noe=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T21:48:29+08:00 ] 119.7.79.115 /index.php/Home/Index/help_kan.html?uid=13204&krid=202773&from=groupmessage&isappinstalled=0&visitDstTime=1471614150182&noe=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T21:49:11+08:00 ] 125.39.57.36 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T21:49:12+08:00 ] 111.30.132.208 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T21:49:12+08:00 ] 163.177.93.244 /index.php/Home/Index/help_kan.html?uid=14111&krid=203072&from=timeline&isappinstalled=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T21:49:20+08:00 ] 123.151.153.35 /index.php/Home/Index/help_kan.html?uid=14111&code=031ydqwM04mzYh2SUpwM0HGpwM0ydqwM&state=203072
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+NOTIC: [8] Undefined index: errcode /alidata/www/xmzkjqx/Application/Common/Common/function.php 第 93 行.
+SQL: SHOW COLUMNS FROM `pg_wx_user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `pg_wx_user` WHERE ( openid='o4hL8wjILfKPj_2kZcpfdspn5uis' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pg_user` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `pg_user` WHERE ( uid=14243 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pg_kanjia_record` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `pg_kanjia_record` WHERE ( id=203072 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `pg_kanjia` [ RunTime:0.0007s ]
+SQL: SELECT pg_goods.*,pg_kanjia.status,pg_kanjia.max_peo,pg_kanjia.cost_price,pg_kanjia.max_peo,pg_kanjia.rand_a,pg_kanjia.rand_b,pg_kanjia.low_price FROM `pg_kanjia` INNER JOIN pg_goods on pg_goods.id=pg_kanjia.pid  WHERE ( pg_kanjia.id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pg_kanjia_help_record` [ RunTime:0.0006s ]
+SQL: SELECT pg_wx_user.nickname,pg_wx_user.headimgurl,pg_kanjia_help_record.* FROM `pg_kanjia_help_record` INNER JOIN pg_wx_user on pg_kanjia_help_record.uid=pg_wx_user.uid  WHERE ( krid=203072 ) ORDER BY pg_kanjia_help_record.c_time desc LIMIT 100   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pg_kanjia_record` WHERE ( id=203072 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `pg_wx_user` WHERE ( uid='14111' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `pg_kanjia_help_record` WHERE ( uid=14243 and krid=203072 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pg_goods` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pg_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+NOTIC: [8] Undefined variable: uid /alidata/www/xmzkjqx/Application/Runtime/Cache/Home/a47441ba7ce706c311534c16fbad12ec.php 第 24 行.
+NOTIC: [8] Undefined variable: uid /alidata/www/xmzkjqx/Application/Runtime/Cache/Home/a47441ba7ce706c311534c16fbad12ec.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006186s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006229s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000135s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000443s ]
+
+[ 2016-08-19T21:52:16+08:00 ] 180.153.212.13 /index.php/Home/Index/help_kan.html?uid=14111&krid=203072&from=timeline&isappinstalled=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T21:52:21+08:00 ] 101.226.89.117 /index.php/Home/Index/help_kan.html?uid=14111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T22:08:00+08:00 ] 123.151.42.46 /index.php/Home/Index/help_kan.html?uid=14895&krid=203170&from=singlemessage&isappinstalled=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T22:08:00+08:00 ] 111.30.132.194 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T22:08:00+08:00 ] 123.151.42.46 /index.php/Home/Index/help_kan.html?uid=14895&krid=203170&from=singlemessage&isappinstalled=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T22:08:00+08:00 ] 111.161.57.163 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+
+[ 2016-08-19T22:11:06+08:00 ] 101.226.125.105 /index.php/Home/Index/help_kan.html?uid=14895&krid=203170&from=singlemessage&isappinstalled=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/xmzkjqx/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+

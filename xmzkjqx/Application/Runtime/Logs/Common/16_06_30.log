@@ -1,0 +1,60 @@
+[ 2016-06-30T15:02:35+08:00 ] ::1 /index.php/Home/index/toupiao.html?s=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:1
+
+[ 2016-06-30T15:05:49+08:00 ] ::1 /index.php/Home/index/toupiao.html?s=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:1
+
+[ 2016-06-30T15:06:47+08:00 ] ::1 /index.php/Home/index/toupiao.html?s=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:1
+
+[ 2016-06-30T15:08:01+08:00 ] ::1 /index.php/Home/index/toupiao.html?s=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:1
+
+[ 2016-06-30T15:08:26+08:00 ] ::1 /index.php/Home/index/toupiao.html?s=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:1
+
+[ 2016-06-30T15:08:58+08:00 ] ::1 /index.php/Home/index/toupiao.html?s=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:1
+
+[ 2016-06-30T15:10:08+08:00 ] ::1 /index.php/Home/index/toupiao.html?s=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:1
+
+[ 2016-06-30T15:10:42+08:00 ] ::1 /index.php/Home/index/toupiao.html?s=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:1
+
+[ 2016-06-30T15:11:13+08:00 ] ::1 /index.php/Home/index/toupiao.html?s=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:1
+
+[ 2016-06-30T15:12:55+08:00 ] ::1 /index.php/Home/index/toupiao.html?s=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:1
+

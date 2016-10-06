@@ -1,0 +1,101 @@
+﻿<include file="Index/common_head" />
+<!--[if IE 6]>
+<script type="text/javascript" src="lib/DD_belatedPNG_0.0.8a-min.js" ></script>
+<script>DD_belatedPNG.fix('*');</script>
+<![endif]-->
+<title>我的桌面</title>
+</head>
+<body>
+<div class="pd-20" style="padding-top:20px;">
+  <p class="f-20 text-success">欢迎使用PG.admin <span class="f-14">v2.3</span>后台！</p>
+  <p> </p>
+
+
+  <table class="table table-border table-bordered table-bg mt-20">
+    <thead>
+      <tr>
+        <th colspan="2" scope="col">服务器信息</th>
+      </tr>
+    </thead>
+    <tbody>
+
+      <tr>
+        <td>系统类型</td>
+        <td>{$sys.php_uname1}</td>
+      </tr>
+      <tr>
+        <td>系统版本号</td>
+        <td>{$sys.php_uname2}</td>
+      </tr>
+      <tr>
+        <td>服务器端口 </td>
+        <td>{$sys.port}</td>
+      </tr>
+      <tr>
+        <td>php版本 </td>
+        <td>{$sys.PHP_VERSION}</td>
+      </tr>
+
+
+      <tr>
+        <td>PHP运行方式 </td>
+        <td>{$sys.php_sapi_name}</td>
+      </tr>
+      <tr>
+        <td>PHP安装路径 </td>
+        <td>{$sys.DEFAULT_INCLUDE_PATH}</td>
+      </tr>
+      <tr>
+        <td>域名或IP </td>
+        <td>{$sys.host}</td>
+      </tr>
+      <tr>
+        <td>服务器系统目录 </td>
+        <td>{$sys.root}</td>
+      </tr>
+
+      <tr>
+        <td>服务器当前时间 </td>
+        <td>{$sys.day}&nbsp;&nbsp;<time id="clock">上午00:00:00</time></td>
+      </tr>
+  
+
+    </tbody>
+  </table>
+</div>
+
+
+
+
+
+
+
+
+<footer class="footer">
+  <p><br>Copyright &copy;2015 LX.admin v3.0 All Rights Reserved.<br>
+    本后台系统由<a href="" target="_blank" title="盘古科技">盘古科技</a>提供前端技术支持</p>
+</footer>
+<include file="Index/common_foot" />
+
+
+
+
+
+
+    <script type="text/javascript">
+        var sbbbb=window.setInterval(function(){
+        var d=new Date();
+        var t=d.toLocaleTimeString();
+        $("#clock").html(t)  ;
+        },1000);
+    </script>
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+<include file="common_head" />
+
+	<link rel="stylesheet" href="__PUBLIC__/Home/css/bindsj.css">
+	<!-- <link rel="stylesheet" href="css/swiper.min.css"> -->
+
+</head>
+<body>
+	<div class="container">
+
+    	<div class="io">
+    		<div class="in">
+			<input id="a_id" type="text" placeholder="请输入要绑定的上级编号"><span class="head"></span>
+    		</div>					
+    	</div>
+    	<p>
+    	    <a href="javascript:;" class="btn do_bd ok">立即绑定</a>    	        
+    	</p>
+
+	</div>
+
+
+<include file="common_foot" />
+
+<script type="text/javascript">
+	$(function(){
+		$(".do_bd").click(function(){
+			var a_id=$("#a_id").val();
+			$.post("{:U('Home/Wap/add_up_id')}",{a_id:a_id},function(data){
+				if (data.code==1) {
+					alert("绑定成功");
+					location.href="{:U('Home/Wap/up_user')}";return false;
+				}else{
+					alert(data.code+data.msg);
+				}
+			})
+		})
+	})
+</script>

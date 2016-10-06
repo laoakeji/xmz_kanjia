@@ -1,0 +1,16 @@
+/*<--index-->*/
+.container{	margin: 0 auto;	width:100%;	height:100%;position: relative;border-top: 1px solid #e3e3e3;}
+.listitem:before{content: " ";border-left: 1px solid #e3e3e3;position: absolute;left: 5%;height: 100%;top: 0px;}
+.listitem.start:before{ content: " ";left: 5%;height: 10px;top: 0px;}
+.listitem.end:after{border: 4px solid #bef1cd;left: 5%;margin-left: -11.5px;height: 15px;width: 15px;background: #4FCB81;top: 7.5px;}
+.listitem.end p{color: #4FCB81;}
+.listitem.end:before{content: " ";border-left: 1px solid #e3e3e3;position: absolute;left: 5%;height: 100%;top: 10px;}
+.listitem:after{content: " ";position: absolute;left: 5%;margin-left: -6.5px;height: 13px;width: 13px;border-radius: 100%;display: block;background: #e3e3e3;top: 10px;}
+.listitem{width: 100%;height:auto;background-color: #fff;    overflow: auto;position: relative;}
+p{color: #9c9c9c;}
+.yuan{width: 10%;height: 72px;display: block;float: left;}
+.xx{float: right;width: 90%;border-bottom: 1px solid #e3e3e3;padding-bottom: 10px;}
+.txt{font-size: 15px;margin:10px 0; }
+.time{font-size: 13px;}
+.current{color: #4FCB81;}
+  

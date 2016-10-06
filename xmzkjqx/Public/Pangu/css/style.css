@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* 你自己的样式 */
+
+@media screen and (max-width:617px) {
+	.formControls.col-8.col-offset-3{
+		    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    letter-spacing: 50px;
+	}
+	.loginBox{
+	    width: 80%;
+    	height: auto;
+    	margin-left: -43%;
+    	margin-top: -30%;
+    	padding: 10px;
+    	border-radius: 50%;
+	}
+	.header{
+		background-size: 108% 70%;
+	}
+	.footer{
+		font-size: 15px;
+	}
+}

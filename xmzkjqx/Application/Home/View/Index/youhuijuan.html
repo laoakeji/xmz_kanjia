@@ -1,0 +1,74 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1，user-scalable=0;">
+<title>西门子-优惠券</title>
+<link rel="stylesheet" href="__PUBLIC__/Home/css/style.css">
+<include file="common_head" />
+</head>
+
+<body>
+<div class="index index3-bg">
+ 
+  <div class="youhui-zt"><img src="__PUBLIC__/Home/icon/youhui.jpg"></div>
+
+    <volist name="list" id="vo">
+      <if condition="$vo.is_prize eq 1">
+        <div ids="{$vo.id}" class="youhuijuan sure-btn">
+      <else />
+        <div ids="{$vo.id}" style="background-image:url(__PUBLIC__/Home/icon/hou.jpg)" class="youhuijuan">
+      </if>
+   
+        <div  class="youhuijuan-main">
+          <div class="youhuijuan-left">
+            <span>{$vo.goods_no}</span>
+            <span>{$vo.goods_name}</span>
+            <span>原价:{$vo.price}</span>
+            <span class="yuan">已优惠：<em>{$vo.k_price}</em></span>
+          </div>
+          <span class="youhuijuan-right">点击<br>领取</span>
+        </div>
+      </div>
+      <div style="height:20px;"></div>
+    </volist>
+
+</div>
+<script src="__PUBLIC__/Home/js/jquery.min.js"></script>
+<script  src="__PUBLIC__/Home/layer/layer.js"></script>
+<script type="text/javascript">
+     
+  	$(".sure-btn").click(function(){
+        var ids = $(this).attr("ids");
+        var th = $(this);
+        if(ids == 0){return;}
+				layer.confirm('你确定要领取优惠券吗，请在工作人员引导下进行操作！', {
+				   btn: ['确定','取消'] //按钮
+				}, function(){
+					$.post("{:U('Home/Index/get_prize')}",{kid:ids},function(result){
+            if(result.code>0){
+              layer.msg('领取成功',{
+                icon: 1,
+                time: 1000 //2秒关闭（如果不配置，默认是3秒）
+              });
+
+              th.attr("ids",0);
+              th.children("em").css("color","#999");
+              th.css("background-image","url(__PUBLIC__/Home/icon/hou.jpg)");
+            }else{
+              alert(result.msg);
+            }
+          })
+				},function(){
+					//取消
+				})
+			})
+			
+			
+			
+
+</script>
+
+</body>
+</html>

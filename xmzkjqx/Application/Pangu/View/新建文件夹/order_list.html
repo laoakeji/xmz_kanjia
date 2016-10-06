@@ -1,0 +1,460 @@
+<include file="Index/common_head" />
+<!--[if IE 6]>
+<script type="text/javascript" src="http://lib.h-ui.net/DD_belatedPNG_0.0.8a-min.js" ></script>
+<script>DD_belatedPNG.fix('*');</script>
+<![endif]-->
+<title>{$title}列表</title>
+</head>
+<body>
+<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> {$title}列表 <span class="c-gray en">&gt;</span> {$title}列表 <a class="btn btn-success radius r mr-20" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+<div class="pd-20">
+
+	<div class="text-c"> <!-- <span class="select-box inline">
+		<select name="" class="select">
+			<option value="0">全部分类</option>
+			<option value="1">分类一</option>
+			<option value="2">分类二</option>
+		</select>
+		</span>  -->
+		<input type="text" name="" id="w_uid" placeholder="UID" value="{$uid}" style="width:250px" class="input-text">
+    <button name="" id="w_sb2" class="btn btn-success" type="submit"><i class="Hui-iconfont">&#xe665;</i> 搜索</button>
+		<input type="text" name="" id="key" placeholder="手机号" value="{$key}" style="width:250px" class="input-text">
+		<input type="text" id="start" onfocus="WdatePicker({dateFmt:'yyyy-MM-dd'})" value="{$time2}" class="input-text Wdate" style="width:120px;">
+		<button name="" id="w_sb" class="btn btn-success" type="submit"><i class="Hui-iconfont">&#xe665;</i> 搜索</button>
+	</div>
+
+	<script type="text/javascript">
+		$(function(){
+			$("#w_sb").click(function(){
+				var key=$("#key").val();
+				var time=$("#start").val();
+				if (key=="") {
+					if (time=="") {
+						location.href="{:U('Pangu/Index/order_list/')}?status={$status}";
+					}else{
+						location.href="{:U('Pangu/Index/order_list/')}?status={$status}&time="+time;
+					}
+				}else{
+					if (time=="") {
+						location.href="{:U('Pangu/Index/order_list/')}?status={$status}&key="+key;
+					}else{
+						location.href="{:U('Pangu/Index/order_list/')}?status={$status}&key="+key+"&time="+time;
+					}
+				}
+				
+			})
+
+      $("#w_sb2").click(function(){
+        var uid=$("#w_uid").val();
+        var time=$("#start").val();
+        if (uid=="") {
+
+        }else{
+          location.href="{:U('Pangu/Index/order_list/')}?status={$status}&uid="+uid;
+        }
+        
+      })
+		})
+	</script>
+
+	<div class="cl pd-5 bg-1 bk-gray mt-20"> 
+
+
+
+
+  <span class="l"><a href="javascript:;" id="" class="btn btn-danger radius del_all"><i class="Hui-iconfont">&#xe6e2;</i> 批量删除</a></span> <!-- <span class="r">共有数据：<strong>54</strong> 条</span> --> 
+  <span class="l"><a href="javascript:;" id="" class="btn btn-danger radius fh_all"><i class="Hui-iconfont">&#xe6e2;</i> 批量发货</a></span> 
+	<span id="export" class="l"><a data-type="csv" href="javascript:;"  class="btn btn-success radius"><i class="Hui-iconfont">&#xe6e2;</i> 下载csv表格</a></span> <span class="r">共有数据：<strong>{$count}</strong> 条</span> 
+
+  <!--  <p id="export"><a data-type="csv" href="javascript:;">下载Excel表格</a></p> -->
+   <script src="__PUBLIC__/Pangu/js/Blob.js"></script>
+
+     <script src="__PUBLIC__/Pangu/js/FileSaver.js"></script>
+
+     <script src="__PUBLIC__/Pangu/js/tableExport.js"></script>
+
+     <script>
+
+
+
+     var $exportLink = document.getElementById('export');
+
+     $exportLink.addEventListener('click', function(e){
+
+       e.preventDefault();
+
+       if(e.target.nodeName === "A"){
+
+         tableExport('table2', '创业天使商城订单{$time}', e.target.getAttribute('data-type'));
+
+       }
+
+       
+
+     }, false);
+
+
+
+     </script>
+
+	</div>
+
+	<div class="mt-20">
+		<table class="table table-border table-bordered table-bg table-hover table-sort">
+			<thead>
+				<tr class="text-c">
+					
+					<th width="25"><input type="checkbox" name="" value=""></th>
+				
+					<th width="80">ID</th>
+ 					<th width="80">UID</th>
+ 					<th width="80">用户昵称</th>
+          <th width="80">订单号</th>
+ 					<th width="80">商户订单号</th>
+ 					<th width="160">订单内容</th>
+ 					<th width="80">总金额</th>
+ 					<th width="80">运费</th>
+ 					<th width="80">付款类型</th>
+ 					<th width="80">收货地址</th>
+ 					<th width="80">收货人</th>
+ 					<th width="80">电话</th>
+ 					<th width="80">下单时间</th>
+ 					<th width="80">付款时间</th>
+ 					<th width="80">发货时间</th>
+ 					<th width="80">订单状态</th>
+ 					<th width="80">快递单号</th>
+ 			
+					<th width="120">操作</th>
+				</tr>
+			</thead>
+			<tbody>
+				<volist name="list" id="vo">
+				<tr class="text-c">
+				
+					<td class="hidden-xs" aid="{$vo.id}"><input type="checkbox" value="{$vo.id}" aid="{$vo.id}" name=""></td>
+				
+					<td>{$vo.id}</td>
+					<td>{$vo.uid}</td>
+					<td>{$vo.nickname}</td>
+          <td>{$vo.order_no}</td>
+					<td>{$vo.sh_order.out_trade_no}</td>
+					<td>
+        <volist name="vo.car" id="m">
+        {$m.goods_name}×{$m.goods_num}<br>
+        </volist>     
+          </td>
+					<td>{$vo.money}</td>
+					<td>{$vo.carriage}</td>
+					<td>{$vo.pay_type}</td>
+					<td>{$vo.province}{$vo.city}{$vo.area}{$vo.address}</td>
+					<td>{$vo.name}</td>
+					<td>{$vo.tel}</td>
+					<td>{$vo.c_time|date="Y-m-d H:i:s",###}</td>
+					<td>{$vo.pay_time|date="Y-m-d H:i:s",###}</td>
+					<td>{$vo.send_time|date="Y-m-d H:i:s",###}</td>
+					<td>{$vo.status}</td>
+					<td>{$vo.ems_no}</td>
+			
+					
+
+					<td class="f-14 td-manage">
+
+					<eq name="vo['status']" value='2'>
+						<a style="text-decoration:none" class="ml-5 w_fh" aid="{$vo.id}" href="javascript:void(0)"><i class="Hui-iconfont">&#xe603;</i></a>
+						</eq>
+
+						<eq name="vo['status']" value='-2'>
+            <a style="text-decoration:none" class="ml-5 w_th" aid="{$vo.id}" href="javascript:void(0)"><i class="Hui-iconfont">同意退货(60%)</i></a>
+						<a style="text-decoration:none" class="ml-5 w_th3" aid="{$vo.id}" href="javascript:void(0)"><i class="Hui-iconfont">同意退货(全款)</i></a>
+						</eq>
+            <eq name="vo['tuan_status']" value='-1'>
+            <a style="text-decoration:none" class="ml-5 w_th2" aid="{$vo.id}" href="javascript:void(0)"><i class="Hui-iconfont">同意退款</i></a>
+            </eq>
+						<if condition="$vo['status'] gt 1">
+						<a style="text-decoration:none" class="ml-5 w_dh" aid="{$vo.id}" href="javascript:void(0)"><i class="Hui-iconfont">&#xe669;</i></a>
+						</if>
+						
+					</td>
+				</tr>
+				</volist>
+			</tbody>
+		</table>
+		{$page}
+	</div>
+</div>
+
+
+
+
+    <table style="display: none" id="table2" class="table table-border table-bordered table-bg table-hover table-sort">
+      <thead>
+        <tr class="text-c">
+          <th width="80">订单号*</th>
+          <th width="80">购买人昵称</th>
+          <th width="80">收件人姓名*</th>
+          <th width="80">手机*</th>
+          <th width="80">电话</th>
+          <th width="80">省</th>
+          <th width="80">市</th>
+          <th width="80">区</th>
+          <th width="80">地址*</th>
+          <th width="160">邮编*</th>
+          <th width="80">快递单号</th>
+          <th width="80">运费</th>
+          <th width="80">订单金额</th>
+          <th width="80">物品名称*</th>
+          <th width="80">商品编码</th>
+          <th width="80">销售属性</th>
+          <th width="80">货位</th>
+          <th width="80">单价</th>
+          <th width="80">数量*</th>
+          <th width="80">优惠</th>
+          <th width="80">下单时间</th>
+          <th width="80">付款时间</th>
+          <th width="80">发货时间</th>
+          <th width="80">买家备注</th>
+          <th width="80">代收货款金额</th>
+          <th width="80">保价声明价值</th>
+        </tr>
+      </thead>
+      <tbody>
+        <volist name="list" id="vo">
+        <tr class="text-c">
+
+
+          <td>{$vo.order_no}</td>
+          <td>{$vo.nickname}</td>
+          <td>{$vo.name}</td>
+          <td>{$vo.tel}</td>
+          <td></td>
+          <td>{$vo.province}</td>
+          <td>{$vo.city}</td>
+          <td>{$vo.area}</td>
+          <td>{$vo.address}</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        
+            <td>
+          <volist name="vo.car" id="m">
+          {$m.goods_name}×{$m.goods_num}<br>
+          </volist>     
+            </td>
+
+          <td>
+          <if condition="$vo['remark'] eq ''">
+          无
+          <else/>
+          {$vo.remark}
+          </if>
+          </td>
+
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        
+          
+
+        </tr>
+        </volist>
+      </tbody>
+    </table>
+<script type="text/javascript" src="__PUBLIC__/Pangu/lib/jquery/1.9.1/jquery.min.js"></script> 
+<script type="text/javascript" src="__PUBLIC__/Pangu/lib/layer/1.9.3/layer.js"></script> 
+<script type="text/javascript" src="__PUBLIC__/Pangu/lib/My97DatePicker/WdatePicker.js"></script> 
+<script type="text/javascript" src="__PUBLIC__/Pangu/lib/datatables/1.10.0/jquery.dataTables.min.js"></script> 
+<script type="text/javascript" src="__PUBLIC__/Pangu/js/H-ui.js"></script> 
+<script type="text/javascript" src="__PUBLIC__/Pangu/js/H-ui.admin.js"></script>
+<script type="text/javascript">
+// $('.table-sort').dataTable({
+// 	"aaSorting": [[ 1, "desc" ]],//默认第几个排序
+// 	"bStateSave": true,//状态保存
+// 	"aoColumnDefs": [
+// 	  //{"bVisible": false, "aTargets": [ 3 ]} //控制列的隐藏显示
+// 	  {"orderable":false,"aTargets":[0,8]}// 制定列不参与排序
+// 	]
+// });
+function admin_add(title,url,w,h){
+	layer_show(title,url,w,h);
+}
+function admin_edit(title,url,w,h){
+	layer_show(title,url,w,h);
+}
+</script> 
+
+
+
+
+
+<script type="text/javascript">
+$(function(){
+  $(".del_all").click(function(){
+      var ids="";
+      
+      $(".hidden-xs").each(function(){
+          var p=$(this);
+          if (p.children().is(":checked")) {
+            ids+=p.attr('aid')+',';
+          }
+
+
+      })
+
+          if (ids=="") {alert("您什么都没有选择呢");return false};
+          var r=confirm("确认删除吗");
+          if (r==true){
+          }else{
+            return false;
+          }           
+          $.get("{:U('Index/do_del_all')}?table=goods&ids="+ids,function(data,s){
+           
+            if (data>0) {alert("删除成功");location.reload()}else{
+              alert("失败");alert(data);
+            }
+          })
+
+     
+  })
+
+
+  $(".fh_all").click(function(){
+      var ids="";
+      
+      $(".hidden-xs").each(function(){
+          var p=$(this);
+          if (p.children().is(":checked")) {
+            ids+=p.attr('aid')+',';
+          }
+
+
+      })
+
+          if (ids=="") {alert("您什么都没有选择呢");return false};
+          var r=confirm("确认全部发货吗");
+          if (r==true){
+          }else{
+            return false;
+          }           
+          $.get("{:U('Pangu/Index/send_order_all')}?ids="+ids,function(data){
+            if (data.code==1) {
+              alert("发货成功");
+              location.reload();
+            }else{
+              alert(data.code+data.msg);
+            }
+          })
+
+     
+  })
+  $(".w_del").click(function(){
+
+    var r=confirm("确认删除吗");
+    if (r==true){
+    }else{
+      return false;
+    } 
+    var p=$(this);
+    var id=$(this).attr("aid");
+    $.post("{:U('Index/do_del')}",{id:id,table:"goods"},function(data){
+      if (data==1) {
+      alert("删除成功")     
+      p.parent().parent().remove();return false;
+      };
+    });
+  })
+  $(".w_fh").click(function(){
+  	var id=$(this).attr("aid");
+  	$.get("{:U('Pangu/Index/send_order')}?id="+id,function(data){
+  		if (data.code==1) {
+  			alert("发货成功");
+  			location.reload();
+  		}else{
+  			alert(data.code+data.msg);
+  		}
+  	})
+  })
+
+  $(".w_th").click(function(){
+  	var id=$(this).attr("aid");
+  	var r=confirm("确认同意退货吗");
+  	if (r==true){
+  	}else{
+  	  return false;
+  	}
+  	$.get("{:U('Pangu/Index/th_order')}?id="+id,function(data){
+  		if (data.code==1) {
+  			alert("退货成功");
+  			location.reload();
+  		}else{
+  			alert(data.code+data.msg);
+  		}
+  	})
+  })
+  $(".w_th3").click(function(){
+    var id=$(this).attr("aid");
+    var r=confirm("确认同意退货吗");
+    if (r==true){
+    }else{
+      return false;
+    }
+    $.get("{:U('Pangu/Index/th_order3')}?id="+id,function(data){
+      if (data.code==1) {
+        alert("退货成功");
+        location.reload();
+      }else{
+        alert(data.code+data.msg);
+      }
+    })
+  })
+  $(".w_th2").click(function(){
+    var id=$(this).attr("aid");
+    var r=confirm("确认同意退货吗");
+    if (r==true){
+    }else{
+      return false;
+    }
+    $.get("{:U('Pangu/Index/th_order2')}?id="+id,function(data){
+      if (data.code==1) {
+        alert("退货成功");
+        location.reload();
+      }else{
+        alert(data.code+data.msg);
+      }
+    })
+  })
+  $(".w_dh").click(function(){
+  	var id=$(this).attr("aid");
+  	var p=$(this);
+  	ems_no = prompt("请输入快递的单号:","20");
+  	if (ems_no != null){
+  		$.post("{:U('Pangu/Index/add_kd')}",{id:id,ems_no:ems_no},function(data){
+  			if (data.code==1) {
+  				//alert("添加成功");
+  				p.parent().prev().html(ems_no);
+  			}else{
+  				alert(data.code+data.msg);
+  			}
+  		})
+  	}
+  })
+
+})
+
+</script>
+
+
+
+
+
+</body>
+</html>

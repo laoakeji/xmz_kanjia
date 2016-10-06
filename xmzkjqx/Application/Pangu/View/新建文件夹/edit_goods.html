@@ -1,0 +1,350 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<!--[if lt IE 9]>
+<script type="text/javascript" src="lib/html5.js"></script>
+<script type="text/javascript" src="lib/respond.min.js"></script>
+<script type="text/javascript" src="lib/PIE_IE678.js"></script>
+<![endif]-->
+<link href="__PUBLIC__/Pangu/css/H-ui.min.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/Pangu/css/H-ui.admin.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/Pangu/lib/icheck/icheck.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/Pangu/lib/Hui-iconfont/1.0.1/iconfont.css" rel="stylesheet" type="text/css" />
+
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Pangu/lib/web2/webuploader.css" />
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Pangu/lib/web2/style.css" />
+<!--[if IE 6]>
+<script type="text/javascript" src="lib/DD_belatedPNG_0.0.8a-min.js" ></script>
+<script>DD_belatedPNG.fix('*');</script>
+<![endif]-->
+<title>编辑</title>
+</head>
+<body>
+<div class="pd-20">
+	<form id="form2" method="post" class="form form-horizontal" id="form-article-add">
+
+	
+  <div class="row cl">
+    <label class="form-label col-2">品牌名称：</label>
+    <div class="formControls col-2"> <span class="select-box">
+      <select class="select" size="1" name="brand_id" datatype="*"  nullmsg="请选择品牌">
+        <option value="" selected>请选择品牌名称</option>
+       <volist name="brand" id="vo">
+        <option <eq name='vo.id' value='$list.brand_id'>selected</eq> value="{$vo.id}">{$vo.brand_name}</option>
+      </volist>
+      </select>
+      </span> 
+    </div>
+    <div class="row cl">
+      
+      <label class="form-label col-2"><span class="c-red">*</span>商品名称：</label>
+      <div class="formControls col-6">
+       <input type="text" class="input-text" placeholder="" value="{$list.goods_name}" name="goods_name" id="goods_name">
+      </div>   
+    </div>
+
+    <div class="row cl">
+      
+      <label class="form-label col-2"><span class="c-red">*</span>规格：</label>
+      <div class="formControls col-6">
+       <textarea name="specification" cols="" rows="" class="textarea"  placeholder="规格..." datatype="*10-100" dragonfly="true" nullmsg="描述不能为空！" onKeyUp="textarealength(this,1)">{$list.specification}</textarea>
+      </div>
+      
+    </div>
+    <div class="row cl">
+      
+      <label class="form-label col-2"><span class="c-red">*</span>商品价格：</label>
+      <div class="formControls col-2">
+       <input type="text" class="input-text" placeholder="" value="{$list.price}" name="price" id="price">
+      </div>   
+    </div>
+
+<!--     <div class="row cl">
+      
+      <label class="form-label col-2"><span class="c-red">*</span>商品库存：</label>
+      <div class="formControls col-2">
+       <input type="text" class="input-text" placeholder="" value="{$list.sku_num}" name="sku_num" id="sku_num">
+      </div>   
+    </div> -->
+
+
+ <div class="row cl">
+      <label class="form-label col-2">手机封面图片：</label>
+      <div class="formControls col-2"> 
+      <p class="" id="file_upload1"><span>上传</span></p><label>预览：</label><img id="img1" style="hight:64px;width:64px" src="{$list.goods_thumb_wap|is_img=###}"><input type="hidden"  id="img_url1" name="goods_thumb_wap" value="{$list.goods_thumb_wap}">    
+      </div>
+</div>
+  <div class="row cl">
+       <label class="form-label col-2">电脑封面图片：</label>
+       <div class="formControls col-2"> 
+       <p class="" id="file_upload2"><span>上传</span></p><label>预览：</label><img id="img2" style="hight:64px;width:64px" src="{$list.goods_thumb_pc|is_img=###}"><input type="hidden"  id="img_url2" name="goods_thumb_pc" value="{$list.goods_thumb_pc}">    
+       </div>
+ </div>
+
+
+  <div class="row cl">
+       <label class="form-label col-2">手机轮播图片：</label>
+       <div class="formControls col-2"> 
+       <p class="" id="file_upload3"><span>上传</span></p><label>预览：</label>
+
+         
+       </div>
+              <input type="hidden"  id="img_url3" name="goods_imgs_wap" value="{$list.goods_imgs_wap}">  
+              <span id="spp3" class="w_simg" style="display: inline-block;">
+              <volist name="list.wap_lb2" id="vo">
+       <img style="height:64px;width:64px;float: left" src="{$vo}">
+       </volist>
+       </span>
+ </div>
+  <div class="row cl">
+       <label class="form-label col-2">电脑轮播图片：</label>
+       <div class="formControls col-2"> 
+       <p class="" id="file_upload4"><span>上传</span></p><label>预览：</label>   
+       </div>
+              <input type="hidden"  id="img_url4" name="goods_imgs_pc" value="{$list.goods_imgs_pc}"> 
+              <span id="spp4" class="w_simg" style="display: inline-block;">
+                    <volist name="list.pc_lb2" id="vo">
+       <img style="height:64px;width:64px;float: left" src="{$vo}">
+       </volist>
+       </span>
+ </div>
+
+
+    <div class="row cl">
+      
+      <label class="form-label col-2"><span class="c-red">*</span>手机详情页：</label>
+      <div class="formControls col-10">
+       <script id="remark2" type="text/plain" name="goods_detail_wap" style="width:100%;height:400px;"></script><input type="hidden" id="w_re2" value="{$list.goods_detail_wap}">
+      </div>
+      
+    </div>
+
+    <div class="row cl">
+      
+      <label class="form-label col-2"><span class="c-red">*</span>电脑详情页：</label>
+      <div class="formControls col-10">
+       <script id="remark3" type="text/plain" name="goods_detail_pc" style="width:100%;height:400px;"></script><input type="hidden" id="w_re3" value="{$list.goods_detail_pc}">
+      </div>
+      
+    </div>
+
+    <div class="row cl">
+      
+
+      <label class="form-label col-2"><span class="c-red">*</span>是否是礼包：</label>
+      <div class="formControls col-2">
+       <input type="radio" name="is_gift" value="0" checked>不是</input>
+       <input type="radio" name="is_gift" value="1">是</input>
+      </div>      
+    </div>
+
+    <div class="row cl">
+      
+      <label class="form-label col-2"><span class="c-red">*</span>商品类型：</label>
+      <div class="formControls col-10">
+       <input type="text" class="input-text" placeholder="1,2=活动,3=团" value="{$list.gift_type}" name="gift_type" id="gift_type">
+      </div>   
+    </div>
+
+      <div class="row cl">
+        
+        <label class="form-label col-2"><span class="c-red">*</span>团购价格：</label>
+        <div class="formControls col-10">
+         <input type="text" class="input-text" placeholder="" value="{$list.t_peo_price}" name="t_peo_price" id="t_peo_price">
+        </div>   
+      </div>
+        <div class="row cl">
+          
+          <label class="form-label col-2"><span class="c-red">*</span>团购人数：</label>
+          <div class="formControls col-10">
+           <input type="text" class="input-text" placeholder="" value="{$list.t_peo_num}" name="t_peo_num" id="t_peo_num">
+          </div>   
+        </div>
+        <div class="row cl">
+          
+          <label class="form-label col-2"><span class="c-red">*</span>团购每人每次限购：</label>
+          <div class="formControls col-10">
+           <input type="text" class="input-text" placeholder="" value="{$list.t_peo_max_num}" name="t_peo_max_num" id="t_peo_max_num">
+          </div>   
+        </div>
+
+		<div class="row cl">
+			<div class="col-10 col-offset-2">
+				<button id="sub_form2" class="btn btn-primary radius" type="button"><i class="Hui-iconfont">&#xe632;</i> 保存</button>
+
+				<button onClick="layer_close();" class="btn btn-default radius" type="button">&nbsp;&nbsp;取消&nbsp;&nbsp;</button>
+			</div>
+		</div>
+	</form>
+</div>
+<script type="text/javascript" src="__PUBLIC__/Pangu/lib/jquery/1.9.1/jquery.min.js"></script> 
+<script type="text/javascript" src="__PUBLIC__/Pangu/lib/layer/1.9.3/layer.js"></script> 
+<script type="text/javascript" src="__PUBLIC__/Pangu/lib/My97DatePicker/WdatePicker.js"></script> 
+<script type="text/javascript" src="__PUBLIC__/Pangu/lib/icheck/jquery.icheck.min.js"></script> 
+<script type="text/javascript" src="__PUBLIC__/Pangu/lib/Validform/5.3.2/Validform.min.js"></script> 
+
+
+<script type="text/javascript" src="__PUBLIC__/Pangu/js/H-ui.js"></script> 
+<script type="text/javascript" src="__PUBLIC__/Pangu/js/H-ui.admin.js"></script> 
+
+	<script type="text/javascript">
+			$(function(){
+				$('#sub_form2').click(function(){
+					var data=$("#form2").serialize();
+					var id="{$id}";
+					$.post("{:U('Index/do_edit_goods')}?id="+id,data,function(data){
+						
+						if (data>=1) {
+							layer.msg("修改成功");
+              parent.location.reload();
+          
+					}else{alert('失败'+data);};
+					})
+				})
+
+			})
+
+		</script>
+
+
+<script type="text/javascript">
+$(function(){
+	$('.skin-minimal input').iCheck({
+		checkboxClass: 'icheckbox-blue',
+		radioClass: 'iradio-blue',
+		increaseArea: '20%'
+	});
+});
+</script>
+
+
+
+<script type="text/javascript" src="__PUBLIC__/uploadify/jquery.uploadify.min.js"></script>
+<script type="text/javascript">
+$(function(){
+
+$('#file_upload1').uploadify({
+
+        //'debug' : true,
+         'buttonText':'上传',
+        // 'width':'130',
+        // 'height':'40',
+        // 'buttonImage':'<{$templets}>/images/sc_03_06.jpg',
+        'queueID'  : 'some_file_queue',//取消上传进度显示
+        'swf'      : "__PUBLIC__/uploadify/uploadify.swf",
+        //'uploader' : "/index.php/home/reg/upload_img",
+        'uploader' : "{:U('Home/Other/upload')}",
+        'onFallback':function(){
+            alert("您未安装FLASH控件，无法上传图片！请安装FLASH控件后再试。");
+        },
+        "onUploadSuccess":function(file, data, response){
+
+            if (data!=-1) {
+              $('#img1').attr('src',data);
+              $('#img_url1').val(data);           
+            }else{
+              alert('上传失败，请重新上传');
+            }
+        }
+        // Put your options here
+    });
+
+$('#file_upload2').uploadify({
+         'buttonText':'上传',
+        'queueID'  : 'some_file_queue',//取消上传进度显示
+        'swf'      : "__PUBLIC__/uploadify/uploadify.swf",
+        'uploader' : "{:U('Home/Other/upload')}",
+        'onFallback':function(){
+            alert("您未安装FLASH控件，无法上传图片！请安装FLASH控件后再试。");
+        },
+        "onUploadSuccess":function(file, data, response){
+            if (data!=-1) {
+              $('#img2').attr('src',data);
+              $('#img_url2').val(data);           
+            }else{
+              alert('上传失败，请重新上传');
+            }
+        }
+        // Put your options here
+    });
+
+$('#file_upload3').uploadify({
+         'buttonText':'上传',
+        'queueID'  : 'some_file_queue',//取消上传进度显示
+        'swf'      : "__PUBLIC__/uploadify/uploadify.swf",
+        'uploader' : "{:U('Home/Other/upload')}",
+        'onFallback':function(){
+            alert("您未安装FLASH控件，无法上传图片！请安装FLASH控件后再试。");
+        },
+        "onUploadSuccess":function(file, data, response){
+            if (data!=-1) {
+              var s=$('#img_url3').val();
+              s=s+',' +data;
+              str='<img style="hight:64px;width:64px;float:left" src="'+data+'">';
+              $("#spp3").append(str);
+              $('#img_url3').val(s);           
+            }else{
+              alert('上传失败，请重新上传');
+            }
+        }
+        // Put your options here
+    });
+
+$('#file_upload4').uploadify({
+         'buttonText':'上传',
+        'queueID'  : 'some_file_queue',//取消上传进度显示
+        'swf'      : "__PUBLIC__/uploadify/uploadify.swf",
+        'uploader' : "{:U('Home/Other/upload')}",
+        'onFallback':function(){
+            alert("您未安装FLASH控件，无法上传图片！请安装FLASH控件后再试。");
+        },
+        "onUploadSuccess":function(file, data, response){
+            if (data!=-1) {
+              var s=$('#img_url4').val();
+              s=s+',' +data;
+              str='<img style="hight:64px;width:64px;float:left" src="'+data+'">';
+              $("#spp4").append(str);
+              $('#img_url4').val(s);           
+            }else{
+              alert('上传失败，请重新上传');
+            }
+        }
+        // Put your options here
+    });
+
+
+})
+
+</script>
+
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__/ueditor/ueditor.config.js"></script>
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__/ueditor/ueditor.all.min.js"> </script>
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__/ueditor/lang/zh-cn/zh-cn.js"></script>
+
+
+
+
+<script type="text/javascript">
+  $(function(){
+  var ue2 = UE.getEditor('remark2');
+  var ue3 = UE.getEditor('remark3');
+
+    ue2.ready(function() {
+     var w_t=$('#w_re2').val();
+    
+     ue2.setContent(w_t);
+   });
+  ue3.ready(function() {
+     var w_t=$('#w_re3').val();
+    
+     ue3.setContent(w_t);
+   });
+  })
+</script>
+</body>
+</html>
